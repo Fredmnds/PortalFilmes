@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DiskFilmes</title>   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/461acbfab7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="container header">
+
+        <div class="row cabecalho">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2">
+                <a href="#" target="_self">
+                    <img src="imagens/logo.png" class="logo">
+                </a>
+            </div>
+
+
+            <div class="col-8 col-sm-10 col-md-10 col-lg-8 menu">
+
+                <ul class="nav">
+                    <a class="nav-link" href="#">Lançamentos</a>
+                    <a class="nav-link" href="#">Em destaque</a>
+                    <a class="nav-link" href="#">Avaliações</a>
+                    <a class="nav-link" href="#">Entrevistas & Makingof</a>
+                    <a class="nav-link" href="#">Novidades</a>
+                </ul>
+            </div>
+            <div class="col-2 col-lg-2 barra">
+                <form action="#" method="post" >
+                    <input type="text" name="search" id="search" placeholder="Pesquisar filme" required>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="container main">
+
+        <section class="row carrossel">
+            <h1>Lançamentos</h1>
+            
+            <div class="row"> 
+                <div class="col-12 carrosseledit">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <iframe width="600" height="315" src="https://www.youtube.com/embed/UK-XpEhYvTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h2 class="titulo-carrossel">O traidor</h2>
+                            <P><strong>Sinopse:</strong> Considerado um dos mafiosos mais relevantes na história da Itália, Tommaso vivia no início dos anos 80 em meio a uma guerra generalizada entre os chefes da Máfia Siciliana pelo controle do tráfico de heroína. Tommaso , o primeiro arrependido da máfia, permitiu que os juízes Falcone e Borsellino compreendessem a organização da Cosa Nostra e levassem seus líderes ao tribunal.</p>
+                            <p style="padding-top: 190px; font-size: 1em;"><strong>Diretor:</strong> Marco Bellocchio</p>
+                            <p style="padding-top: 190px; padding-left: 220px;font-size: 1em"><strong>Roteiro:</strong> Marco Bellocchio, Valia Santella </p>
+                            <p style="padding-top: 190px; padding-left: 530px;font-size: 1em"><strong>Estreia:</strong> 2022</p>
+                            <p style="padding-top: 220px; font-size: 1em"><strong>Elenco:</strong> Pierfrancesco Favino | Maria Fernanda Cândido | Fabrizio Ferracane</p>
+                            <p style="padding-top: 290px;" ><strong>Avaliação:</strong></p>
+                            <div style="padding-left: 605px;" class="star-rating">
+                                <i class="fas fa-star" id="star1"></i> 
+                                <i class="fas fa-star" id="star2"></i>
+                                <i class="fas fa-star" id="star3"></i>
+                                <i class="far fa-star" id="star4"></i>
+                                <i class="far fa-star" id="star5"></i>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="600" height="315" src="https://www.youtube.com/embed/BNq3BRowSDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h2 class="titulo-carrossel">A pior pessoa do mundo</h2>
+                            <P><strong>Sinopse:</strong> Julie, que em breve fará 30 anos, não parece conseguir assentar. Quando pensa ter encontrado alguma estabilidade com Aksel, um escritor de sucesso de 45 anos, conhece o jovem e bonito Eivind. Um filme inteligente e emocionante sobre a busca de amor e sentido na vida de hoje, premiado no Festival de Cannes.</p>
+                            <p style="padding-top: 170px;font-size: 1em" ><strong>Diretor:</strong> Joachim Trier</p>
+                            <p style="padding-top:170px; padding-left:190px; font-size: 1em;"><strong>Roteiro:</strong> Joachim Trier, Eskil Vogt</p>
+                            <p style="padding-top: 170px; padding-left: 445px; font-size: 1em"><strong>Estreia:</strong> 2022</p>
+                            <p style="padding-top: 210px; font-size: 1em"><strong>Elenco:</strong> Renate Reinsve | Anders Danielsen Lie | Herbert Nordrum</p>
+                            <p style="padding-top: 290px;" ><strong>Avaliação:</strong></p>
+                            <div style="padding-left: 605px;" class="star-rating">
+                                <i class="fas fa-star" id="star1"></i> 
+                                <i class="fas fa-star" id="star2"></i>
+                                <i class="fas fa-star" id="star3"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="far fa-star" id="star4"></i>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="600" height="315" src="https://www.youtube.com/embed/4-zxkc0gr_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                            <h2 class="titulo-carrossel">Belfast</h2>
+                            <P><strong>Sinopse:</strong> Na Irlanda do Norte dos anos 60, um menino de 9 anos experimenta o amor, a alegria e a perda. Em meio a conflitos políticos e sociais, o garoto tenta encontrar um lugar seguro para sonhar enquanto sua família busca uma vida melhor.</p>
+                                <p style="padding-top: 170px;font-size: 1em" ><strong>Diretor:</strong> Kenneth Branagh</p>
+                                <p style="padding-top:170px; padding-left:220px; font-size: 1em;"><strong>Roteiro:</strong> Kenneth Branagh</p>
+                                <p style="padding-top: 170px; padding-left: 435px; font-size: 1em"><strong>Estreia:</strong> 2022</p>
+                                <p style="padding-top: 210px; font-size: 1em"><strong>Elenco:</strong> Caitriona Balfe | Jamie Dornan | Jude Hill</p>
+                                <p style="padding-top: 290px;" ><strong>Avaliação:</strong></p>
+                                <div style="padding-left: 605px;" class="star-rating">
+                                <i class="fas fa-star" id="star1"></i> 
+                                <i class="fas fa-star" id="star2"></i>
+                                <i class="fas fa-star" id="star3"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="far fa-star" id="star4"></i>
+                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="600" height="315" src="https://www.youtube.com/embed/R68xqaxgTSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h2 class="titulo-carrossel">Uncharted - Fora do Mapa</h2>
+                            <P><strong>Sinopse:</strong> Nathan Drake e seu parceiro canastrão Victor "Sully" Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.</P>
+                            <p style="padding-top: 170px;font-size: 1em" ><strong>Diretor:</strong> Ruben Fleischer</p>
+                            <p style="padding-top:170px; padding-left:200px; font-size: 1em;"><strong>Roteiro:</strong> Rafe Judkins, Art Marcum</p>
+                            <p style="padding-top: 170px; padding-left: 455px; font-size: 1em"><strong>Estreia:</strong> 2022</p>
+                            <p style="padding-top: 210px; font-size: 1em"><strong>Elenco:</strong> Tom Holland | Mark Wahlberg | Sophia Ali</p>
+                            <p style="padding-top: 290px;" ><strong>Avaliação:</strong></p>
+                            <div style="padding-left: 605px;" class="star-rating">
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <button style="padding-right:170px" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button style="padding-left:160px" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                    </div>     
+              </div>
+
+        </section>
+
+
+        <section class="row destaques">
+
+            <div class="row destaq-cima">
+                <div class="col-10 h1-destaq">
+                    <h1> Em Destaque</h1>
+                </div>
+            <div class="col-2 dropdown">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias: TODOS
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Aventura</a></li>
+                      <li><a class="dropdown-item" href="#">Romance</a></li>
+                      <li><a class="dropdown-item" href="#">Comédia</a></li>
+                    </ul>
+                  </div>
+            </div>
+
+            <div class="row destaque">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 card">
+                    <div class="card" style="width: 18em;">
+                            <img src="imagens/card.jpg" class="card-img-top" alt="filme1">
+                        <p>Pânico 5</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 card">
+                    <div class="card" style="width: 18em;">
+                            <img src="imagens/card1.jpg" class="card-img-top" alt="filme2">
+                        <p>Doutor Estranho no Multiverso da Loucura</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 card">
+                    <div class="card" style="width: 18em;">
+                            <img src="imagens/card2.jpg" class="card-img-top" alt="filme3">
+                        <p>Batman</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 card">
+                    <div class="card" style="width: 18em;">
+                            <img src="imagens/card3.jpg" class="card-img-top" alt="filme4">
+                        <p>Animais Fantásticos: Os Segredos de Dumbledore</p>
+                    </div>                   
+                </div>
+            </div>
+
+            <div class="row botao2">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary"><i class="fa-solid fa-plus"></i> Carregar mais filmes</button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="row ult-avali">
+
+            <div class="row ult-1">
+                <div class="col-12">
+                    <h2>Últimas avaliações</h2>
+                </div>
+            </div>
+
+            <div class="row ult-2">
+
+                <div class="col-12 col-sm-4 col-md-3 col-lg-4 rogerio">
+                    <i style="font-size: 60px;" class="fa-regular fa-circle-user"></i></i><h4 style="display: inline; padding-left: 15px;"> Rogério Luís </h4>
+                    <p style="text-align: justify; padding-top: 15px; padding-left: 10px;">Nenhum dos personagens tem profundidade e eles são tratados como acessórios e cenários decorativos.</p>
+                    <div class="form-group">    
+                        <div class="star-rating">
+                            <i class="fas fa-star" id="star1"></i> 
+                            <i class="fa-solid fa-star-half-stroke" id="star2"></i>
+                            <i class="far fa-star" id="star3"></i>
+                            <i class="far fa-star" id="star4"></i>
+                            <i class="far fa-star" id="star5"></i> <p style="display: inline; padding-left: 15px;" ><strong>15/03/2022</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 col-md-3 col-lg-4 joao">
+                    <i style="font-size: 60px;" class="fa-regular fa-circle-user"></i><h4 style="display: inline; padding-left: 15px;"> João Azevedo </h4>
+                    <p style="text-align: justify; padding-top: 15px; padding-left: 10px;">Apesar de ser um filme com bom roteiro e ótimos personagens, deixa muito a desejar no planejamento dos cenários.</p>
+                    <div class="star-rating">
+                        <i class="fas fa-star" id="star1"></i> 
+                        <i class="fas fa-star" id="star2"></i>
+                        <i class="fas fa-star" id="star3"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="far fa-star" id="star5"></i> <p style="display: inline; padding-left: 15px;" ><strong>09/04/2022</strong></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 col-md-3 col-lg-4 carla">
+                    <i style="font-size: 60px;" class="fa-regular fa-circle-user"></i></i><h4 style="display: inline; padding-left: 15px;"> Carla Silva </h4>
+                    <p style="text-align: justify; padding-top: 15px; padding-left: 10px;">É um fantástico filme, personagens bem trabalhos, cenários impecáveis e um roteiro de se emocioanar, porém é um filme de curta duração.</p>
+                    <div class="star-rating">
+                        <i class="fas fa-star" id="star1"></i> 
+                        <i class="fas fa-star" id="star2" ></i>
+                        <i class="fas fa-star" id="star3"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <p style="display: inline; padding-left: 15px;" ><strong>03/03/2022</strong></p>
+                    </div>
+                </div>
+                <div class="row botao3">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-secondary"><i class="fa-solid fa-plus"></i> Carregar mais avaliações</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="row entrevistas">
+
+            <div class="col-12 title-ent">
+                <h2>Entrevistas & Makingof</h2>
+            </div>
+            <div class="row entrevista">
+                <div class="col-sm-6 col-md-6 col-lg-4 f">
+                    <strong style="padding-left: 0px; padding-top: 20px ;padding-bottom: 10px; font-size: 1.4em;">Bastidores Topgun - Maverick</strong>
+                    <p style="padding-bottom: 10px;"><b>Diretor:</b> Joseph Kosinski</p>
+                    <p><b>Estreia:</b> 2022</p>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/AZ5eVc-vx9o" title="Top Gun - Maverick" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 f">
+                    <strong style="padding-bottom: 10px; font-size: 1.5em;padding-left: 70px;">Bastidores 1917</strong>
+                    <p style="padding-bottom: 10px;"><b>Diretor:</b> Sam Mendes</p>
+                    <p><b>Estreia:</b> 2022</p>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/fgUyRVOSqlA" title="1917" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 f">
+                    <strong style="padding-bottom: 10px; font-size: 1.5em;padding-left: 40px;">Bastidores Megatubarão</strong>
+                    <p><b>Diretor:</b> Jon Turteltaub</p>
+                    <p><b>Estreia:</b> 2018</p>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/_LNGugrCU7A" title="Megatubarão" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="row filmes">
+                <div class="col-sm-6 col-md-4 col-lg-4 b">
+                    <h6><strong>Filme:</strong> Top Gun - Maverick</h6>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 b">
+                    <h6><strong>Filme:</strong> 1917</h6>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 b">
+                    <h6><strong>Filme:</strong> Megatubarão</h6>
+                </div>
+            </div>
+
+            <div class="row diretor">
+                <div class="col-sm-6 col-md-4 col-lg-4 a">
+                    <h6><strong>Diretor:</strong> Joseph Kosinski <strong> Estreia:</strong> 2022</h6>
+                    <h6><strong>Roteiro:</strong> Jim Cash, Ehren Kruger</h6>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 a">
+                    <h6><strong>Diretor:</strong> Sam Mendes <strong> Estreia:</strong> 2022</h6>
+                    <h6><strong>Roteiro:</strong> Sam Mendes, Krysty Wilson-Cairns</h6>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 a">
+                    <h6><strong>Diretor:</strong> Jon Turteltaub <strong>Estreia:</strong> 2018</h6>
+                    <h6><strong>Roteiro:</strong> Dean Georgaris, Jon Hoeber e Erich Hoeber</h6>
+                </div>
+
+            </div>
+            <div class="row botao">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary"><i class="fa-solid fa-plus"></i> Carregar mais filmes</button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section style="padding-top: 20px;" class="row novidade">
+            
+            <div class="row">        
+
+                <div class="col-sm-2 col-md-6 col-lg-4 nov">
+                    <h2>Novidades</h2>
+
+                        <a class="desktop" href="#" target="_self">
+                            <img class="sonic" src="imagens/sonic.jpg" class="img3" style="width: 350px;height: 250px;padding-top: 50px;">
+                        </a>
+
+                        <a class="desktop" href="#" target="_self">
+                            <img src="imagens/morbius.png" class="img3" style="width: 350px;height: 250px;padding-top: 20px;">
+                        </a>
+
+                        <a class="desktop" href="#" target="_self">
+                            <img src="imagens/coraçao.jpg" class="img3" style="width: 350px;height: 250px;padding-top: 20px; padding-bottom: 20px;">
+                        </a>
+
+                </div>
+
+                <div class="col-sm-10 col-md-6 col-lg-4 notic">
+                   <ul class="desc1">
+                    <a class="mobile" href="#" target="_self">
+                        <img class="sonic" src="imagens/sonic.jpg" class="img3" style="width: 300px;height: 200px;padding-top: 50px;padding-left: 30px;">
+                    </a>
+                    <a href="#" target="_self" style="color:black; text-decoration:none">
+                    <h3 style="padding-top:10px;padding-left: 15px; font-size: 1.1em; font-weight: bold;padding-top: 50px;">Sonic 2 lidera bilheterias nos EUA</h3></a>
+                    <p style="padding-left: 15px; text-align: justify;">"Sonic 2: O Filme" faturou US$ 71 milhões (cerca de R$ 333 milhões) em sua estreia nas bilheterias norte-americanas, uma indicação de que o público formado por famílias está começando a voltar aos cinemas.</p>
+                    <i style="padding-left: 15px;" ><span class="badge bg-secondary">Paramount</span></i> <i style="padding-left: 5px;"><span class="badge bg-secondary">Estreia</span></i> <i style="padding-left: 5px;"><span class="badge bg-secondary">Infantil</span></i>
+                    </ul>
+                
+                    <ul>
+                        <a class="mobile" href="#" target="_self">
+                            <img src="imagens/morbius.png" class="img3" style="width: 300px;height: 200px;padding-top: 50px; padding-left: 30px;">
+                        </a>
+
+                    <a href="#" target="_self" style="color:black; text-decoration:none">
+                    <h3 style="padding-top:20px;padding-left: 15px; font-size: 1.1em; font-weight: bold;padding-top: 25px;">Morbius estreia em primeiro na bilheteria nacional e desbanca Batman</h3></a>
+                    <p style="padding-left: 15px; text-align: justify;">Filme com Jared Leto como vampiro da Marvel arrecadou R$ 8,9 milhões no final de semana. Líder há quatro semanas, Batman caiu para a segunda colocação.</p>
+                    <i style="padding-left: 15px;" ><span class="badge bg-secondary">Marvel Studios</span></i> <i style="padding-left: 5px;"><span class="badge bg-secondary">Anti-herói</span></i> <i style="padding-left: 5px;"><span class="badge bg-secondary">Vampiro</span></i>
+                    <a href="#" target="_self" style="color:black; text-decoration:none">
+                    </ul>
+                    <ul>
+                    <a class="mobile" href="#" target="_self">
+                        <img src="imagens/coraçao.jpg" class="img3" style="width: 300px;height: 200px;padding-top: 60px;padding-left: 30px;">
+                    </a>
+                    <h3 style="padding-top:15px;padding-left: 15px; font-size: 1.1em; font-weight: bold;padding-top: 25px;">No ritmo do Coração é favorito ao Oscar de melhor filme, dizem termômetro da premiação</h3></a>
+                    <p style="padding-left: 15px; text-align: justify;">Premiações de sindicatos de Hollywood são bons indicadores da Academia e filme sobre família de surdos ganhou três deles. 'Ataque de cães' ainda sonha, com vitória da diretora Jane Campion.</p>
+                    <i style="padding-left: 15px;" ><span class="badge bg-secondary">Hollywood</span></i> <i style="padding-left: 5px;"><span class="badge bg-secondary">Oscar</span></i> <i style="padding-left: 5px;"><span class="badge bg-secondary">Drama</span></i>
+                </ul>
+
+                </div>
+
+
+
+
+                <div class="col-sm-12 col-md-12 col-lg-4 sobre">
+                    <h2 style="padding-left: 20px; padding-bottom: 70px;">Sobre</h2>
+                    <p style="font-size: 1.3em; text-align: justify; padding-top: 50px; padding-left: 20px;">Este portal foi desenvolvido para o Trabalho Prático - Portal de Filmes, da matéria de Desenvolvimento de Interfaces Web da faculdade PUC Minas, afim de por em prática todo o conteúdo que foi passado desde o início do ano de 2022. O portal atende a todos os requisitos necessários para sua realização.</p>
+                    
+
+                    <h2>Editorial</h2>
+                        <ul style="padding-top: 50px;">
+                            <p style="font-size:1.1em"><i class="fa-solid fa-user" style="font-size:26px;"></i> <strong style="font-size:1.3em">Redação:</strong> Frederico Mendes</p>
+                            <p style="font-size:1.1em"><i class="fa-solid fa-user" style="font-size:26px"></i> <strong style="font-size:1.3em">Pesquisa:</strong> Frederico Mendes</p>
+                            <p style="font-size:1.1em"><i class="fa-solid fa-user" style="font-size: 26px"></i> <strong style="font-size:1.3em">Gerente Geral:</strong> Frederico Mendes</p>
+                        
+                        </ul>
+                        <h3 style="padding-left: 100px; padding-top: 20px; padding-bottom: 5px;"><b>Redes Sociais</b></h3>
+                            <a href="https://facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook" style="font-size: 50px; padding-left: 100px;"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" style="color: rgb(192, 44, 100);">
+                                <i class="fa-brands fa-instagram" style="font-size: 50px;padding-left:15px"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter" style="font-size: 50px;padding-left:15px""></i>
+                            </a>
+                    
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer class="container footer">
+        
+        <div class="row rodape">
+            <div class="col-sm-4 col-md-4 col-lg-10">
+                <p>DiskFilmes - Todos os direitos reservados - 2022</p>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-2 logo2">
+                <img src="imagens/logo.png" class="logo2">
+            </div>
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
